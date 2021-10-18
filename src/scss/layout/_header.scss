@@ -19,6 +19,12 @@
         }
     }
 
+    &.fijo {
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 .3rem 1rem $negro;
+    }
+
 }
 
 .navegacion-principal{
