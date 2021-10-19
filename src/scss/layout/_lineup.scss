@@ -1,5 +1,5 @@
 .lineup {
-    background-color: $rosa;
+    background-color: $negro;
     padding: $separacion 0;
 
     h3, p {
@@ -19,6 +19,7 @@
 
     .escenario {
         padding-top: 2.5rem;
+        border-radius: 15px;
     }
 
     .nombre-escenario {
@@ -46,8 +47,14 @@
 }
 .rock .nombre-escenario {
     &:after {
-        background-image: url(../img/icono_rock.png);
+        margin-bottom: -11rem;
     }
+}
+.icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2.2rem;
 }
 
 .calendario {

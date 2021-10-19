@@ -19,6 +19,7 @@
     }
 
     @include grid(2, $separacion);
+    align-items: center;
 
     @include tablet {
         @include grid(4, 2.5rem);

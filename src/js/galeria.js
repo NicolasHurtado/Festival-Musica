@@ -35,6 +35,7 @@ function mostrarImagen(e) {
 
     overlay.onclick = function() {
         overlay.remove();
+        body.classList.remove('fijar-body');
     }
     
     // Boton para cerrar la imagen
@@ -47,12 +48,12 @@ function mostrarImagen(e) {
 
     cerrarImagen.onclick = function(){
         overlay.remove();
+        body.classList.remove('fijar-body');
     }
 
     overlay.appendChild(cerrarImagen);
 
     // Mostrar en el HTML
-
     const body = document.querySelector('body');
     body.appendChild(overlay);
     body.classList.add('fijar-body');
